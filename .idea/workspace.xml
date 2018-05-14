@@ -10,12 +10,139 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rabbi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rabbi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Doctor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Doctor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lawyer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lawyer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mother.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mother.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Enemy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Player.java" />
+        <option value="$PROJECT_DIR$/src/Rabbi.java" />
+        <option value="$PROJECT_DIR$/src/D.java" />
+        <option value="$PROJECT_DIR$/src/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/Lawyer.java" />
+        <option value="$PROJECT_DIR$/src/Mother.java" />
+        <option value="$PROJECT_DIR$/src/Enemy.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -25,8 +152,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="927" />
+    <option name="y" value="50" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
   </component>
@@ -45,19 +172,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Final_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final_Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Course" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2017-2018_cs1_19jjoffe/CS1_Sorting&amp;Searching" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -170,15 +312,19 @@
       <updated>1525096963977</updated>
       <workItem from="1525096967594" duration="257000" />
       <workItem from="1525097265192" duration="50000" />
-      <workItem from="1525097369366" duration="68000" />
+      <workItem from="1525097369366" duration="464000" />
+      <workItem from="1525542246365" duration="33000" />
+      <workItem from="1525699071232" duration="1360000" />
+      <workItem from="1526303411760" duration="2234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375000" />
+    <option name="totallyTimeSpent" value="4398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -192,7 +338,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -217,5 +363,98 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Rabbi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lawyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
