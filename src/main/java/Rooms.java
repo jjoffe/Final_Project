@@ -22,11 +22,8 @@ public class Rooms {
 
     }
 
-    public static void main(String args[]){
-        Read();
-    }
 
-    public static void Write() {
+   /* public static void Write() {
 
         JSONObject obj = new JSONObject();
         obj.put("name", "Anna");
@@ -52,7 +49,7 @@ public class Rooms {
         }
 
         System.out.print(obj);
-    }
+    }*/
 
     public static void Read(){
 
