@@ -1,2 +1,19 @@
-{"name":"Anna","messages":["msg 1","msg 2","msg 3"],"age":100,
-"room": {"id" : "1"}}
+{
+  "roomArray": {
+    "room0": {
+      "id": "0",
+      "exits": "1",
+      "text": "Shalom. Press 1 to continue."
+    },
+    "room1" : {
+      "id": "1",
+      "exits": "2",
+      "text": "room1text."
+    },
+    "room2" : {
+      "id": "2",
+      "exits": "3",
+      "text": "room2text."
+    }
+  }
+}

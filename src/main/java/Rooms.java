@@ -18,10 +18,9 @@ public class Rooms {
     ArrayList<String> objects;
     String text;
 
-    public Rooms(){
+    public Rooms() {
 
     }
-
 
    /* public static void Write() {
 
@@ -51,7 +50,7 @@ public class Rooms {
         System.out.print(obj);
     }*/
 
-    public static void Read(){
+    public static void Read(int id){
 
         JSONParser parser = new JSONParser();
 
