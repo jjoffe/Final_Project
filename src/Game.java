@@ -35,7 +35,7 @@ public class Game {
         JSONObject obj = (JSONObject) parser.parse(new FileReader("Adventure.JSON"));
         JSONObject rooms = (JSONObject) obj.get("roomArray");
         //JSONObject room = (JSONObject) obj.get("room0");
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {
           String thing = "room" + String.valueOf(i);
           //System.out.println(thing);
           map.put(i, (JSONObject) rooms.get(thing));
@@ -46,7 +46,13 @@ public class Game {
         System.out.println(currentText);
         String nextIdString = scan.nextLine();
         int nextId = Integer.parseInt(nextIdString);
-        play(nextId);
+        int exit = Integer.parseInt(((String) current.get("exits")));
+        if (nextId != exit){
+          System.out.println("not a valid exit");
+          play(id);
+        } else {
+          play(nextId);
+        }
       }
 
       catch (FileNotFoundException e) {
