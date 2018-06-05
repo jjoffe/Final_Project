@@ -2,23 +2,80 @@
   "roomArray": {
     "room0": {
       "id": "0",
-      "exits": "1",
-      "text": "Shalom. Press 1 to continue."
+      "exits": ["1"],
+      "text": "Shalom. Tell me your name!"
     },
     "room1" : {
       "id": "1",
-      "exits": "2",
-      "text": "room1text."
+      "exits": ["2"],
+      "text": "hello, name. what kind of jew are you?"
     },
     "room2" : {
       "id": "2",
-      "exits": "3",
-      "text": "room2text."
+      "exits": ["1", "3"],
+      "text": "Are you sure you want to choose that class?"
     },
     "room3" : {
       "id":"3",
-      "exits" : "1",
-      "text" : "shai is too tall"
+      "exits" : ["4", "5", "6", "11", "12", "13", "7"],
+      "text" : "you wake up in a jail cell. You do not remember what happened."
+    },
+    "room4" : {
+      "id" : "4",
+      "exits" : ["8"],
+      "text" : "with your mighty strength, you list the bars and exit the cell"
+    },
+    "room5" : {
+      "id" : "5",
+      "exits" : ["3"],
+      "text" : "you failed cuz you weak."
+  },
+    "room6" : {
+      "id" : "6",
+      "exits" : ["3"],
+      "text" : "you find a key"},
+    "room7" : {
+      "id" : "7",
+      "exits" : ["8"],
+      "text" : "you uunlock the door."},
+    "room8" : {
+      "id" : "8",
+      "exits" : ["9", "10"],
+      "text" : "you are confronted by a gaurd"},
+    "room9" : {
+      "id" : "9",
+      "exits" : ["15", "14"],
+      "text" : "with your mighty strength, you list the bars and exit the cell"
+    },
+    "room10" : {
+      "id" : "10",
+      "exits" : ["14"],
+      "text" : "you fight the gaurd"
+    },
+    "room11" : {
+      "id" : "11",
+      "exits" : ["14", "3"],
+      "text" : "you talk to the gaurd"
+    },
+    "room12" : {
+      "id" : "12",
+      "exits" : ["8"],
+      "text" : "you attempt to pick the lock"
+    },
+    "room13" : {
+      "id" : "13",
+      "exits" : ["8"],
+      "text" : "you cast a spell"
+    },
+    "room14" : {
+      "id" : "14",
+      "exits" : ["0"],
+      "text" : "you have escaped!"
+    },
+    "room15" : {
+      "id" : "15",
+      "exits" : ["10"],
+      "text" : "you attempt to convince the gaurd to let you go, but you fail."
     }
-  }
-}
+
+}}
