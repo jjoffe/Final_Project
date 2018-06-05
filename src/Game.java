@@ -49,6 +49,15 @@ public class Game {
         //int exit = Integer.parseInt(((String) current.get("exits")));
         ArrayList<String> exitArray = new ArrayList();
         exitArray = (ArrayList<String>) current.get("exits");
+        ArrayList<ArrayList<String>> checkArray = new ArrayList();
+        checkArray = (ArrayList<ArrayList<String>>) current.get("checks");
+        for(ArrayList list : checkArray){
+          for(int i = 0; i < 2; i++){
+            if (Integer.parseInt((String)list.get(i)) == nextId){
+              
+            }
+          }
+        }
         for (int i = 0; i <= exitArray.size(); i++) {
           if (Integer.parseInt(exitArray.get(i)) == nextId) {
             play(nextId);

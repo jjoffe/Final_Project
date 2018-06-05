@@ -3,79 +3,110 @@
     "room0": {
       "id": "0",
       "exits": ["1"],
-      "text": "Shalom. Tell me your name!"
+      "text": "Shalom. Tell me your name!",
+      "checks":[[]]
     },
     "room1" : {
       "id": "1",
       "exits": ["2"],
-      "text": "hello, name. what kind of jew are you?"
+      "text": "hello, name. what kind of jew are you?",
+      "checks":[[]]
     },
     "room2" : {
       "id": "2",
       "exits": ["1", "3"],
-      "text": "Are you sure you want to choose that class?"
+      "text": "Are you sure you want to choose that class?",
+      "checks":[[]]
     },
     "room3" : {
       "id":"3",
       "exits" : ["4", "5", "6", "11", "12", "13", "7"],
-      "text" : "you wake up in a jail cell. You do not remember what happened."
+      "text" : "you wake up in a jail cell. You do not remember what happened.",
+      "checks":[["5","4"],["16","11"]]
     },
     "room4" : {
       "id" : "4",
       "exits" : ["8"],
-      "text" : "with your mighty strength, you list the bars and exit the cell"
+      "text" : "with your mighty strength, you break the bars and exit the cell",
+      "checks":[[]]
     },
     "room5" : {
       "id" : "5",
       "exits" : ["3"],
-      "text" : "you failed cuz you weak."
+      "text" : "you failed, as you have weak, noodley arms.",
+      "checks":[[]]
   },
     "room6" : {
       "id" : "6",
       "exits" : ["3"],
-      "text" : "you find a key"},
+      "text" : "you find a key",
+      "checks":[[]]
+    },
     "room7" : {
       "id" : "7",
       "exits" : ["8"],
-      "text" : "you uunlock the door."},
+      "text" : "you unlock the door.",
+      "checks":[[]]
+    },
     "room8" : {
       "id" : "8",
       "exits" : ["9", "10"],
-      "text" : "you are confronted by a gaurd"},
+      "text" : "you are confronted by a guard",
+      "checks":[[]]
+    },
     "room9" : {
       "id" : "9",
       "exits" : ["15", "14"],
-      "text" : "with your mighty strength, you list the bars and exit the cell"
+      "text" : "you conive him to let you go",
+      "checks":[["15","14"]]
     },
     "room10" : {
       "id" : "10",
       "exits" : ["14"],
-      "text" : "you fight the gaurd"
+      "text" : "you fight the guard",
+      "checks":[["17","14"]]
     },
     "room11" : {
       "id" : "11",
       "exits" : ["14", "3"],
-      "text" : "you talk to the gaurd"
+      "text" : "you convince the guard to let you go",
+      "checks":[[]]
     },
     "room12" : {
       "id" : "12",
       "exits" : ["8"],
-      "text" : "you attempt to pick the lock"
+      "text" : "you attempt to pick the lock",
+      "checks":[[]]
     },
     "room13" : {
       "id" : "13",
       "exits" : ["8"],
-      "text" : "you cast a spell"
+      "text" : "you cast a spell",
+      "checks":[[]]
     },
     "room14" : {
       "id" : "14",
       "exits" : ["0"],
-      "text" : "you have escaped!"
+      "text" : "you have escaped!",
+      "checks":[[]]
     },
     "room15" : {
       "id" : "15",
       "exits" : ["10"],
-      "text" : "you attempt to convince the gaurd to let you go, but you fail."
-    }
+      "text" : "you attempt to convince the gaurd to let you go, but you fail, you begin to fight.",
+      "checks":[[]]
+    },
+    "room16":{
+      "id": "16",
+      "exits": ["3"],
+      "text": "the guard tells you that you smell weird and are bad, so you can't leave",
+      "checks":[[]]
+    },
+    "room17":{
+    "id": "17",
+    "exits": ["3"],
+    "text": "you died",
+      "checks":[[]]
+  }
 
 }}
