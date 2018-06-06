@@ -17,6 +17,16 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class Game {
+  public static boolean check(int stat, int target){
+    if(stat >= target){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+
+  static Player player = new Player();
 
   public static void main(String args[]){
     play(0);
@@ -51,19 +61,40 @@ public class Game {
         exitArray = (ArrayList<String>) current.get("exits");
         ArrayList<ArrayList<String>> checkArray = new ArrayList();
         checkArray = (ArrayList<ArrayList<String>>) current.get("checks");
-        for(ArrayList list : checkArray){
-          for(int i = 0; i < 2; i++){
-            if (Integer.parseInt((String)list.get(i)) == nextId){
-              
-            }
-          }
-        }
         for (int i = 0; i <= exitArray.size(); i++) {
           if (Integer.parseInt(exitArray.get(i)) == nextId) {
             play(nextId);
           }
-
         }
+        for(ArrayList list : checkArray){
+          for(int i = 0; i < 2; i++){
+            if (Integer.parseInt((String)list.get(i)) == nextId){
+              int statC = 0;
+              if(list.get(2).equals("cha")){
+                statC = player.getCha();
+              }
+              else if(list.get(2).equals("str")){
+                statC = player.getCha();
+              }
+              else if (list.get(2).equals("win")){
+
+              }
+              int targetC =Integer.parseInt((String) list.get(3));
+              if (check(statC,targetC) == true){
+                int succ = Integer.parseInt((String)(list.get(1)));
+                play(succ);
+              }
+              else{
+                int fail = Integer.parseInt((String)(list.get(0)));
+                play(fail);
+              }
+            }
+          }
+        }
+
+
+
+
         System.out.println("not a valid exit");
         play(id);
 
