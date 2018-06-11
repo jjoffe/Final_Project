@@ -29,6 +29,7 @@ public class Game {
   static Player player = new Player();
 
   public static void main(String args[]){
+    System.out.println(makeStats());
     play(0);
   }
 
@@ -61,9 +62,11 @@ public class Game {
         exitArray = (ArrayList<String>) current.get("exits");
         ArrayList<ArrayList<String>> checkArray = new ArrayList();
         checkArray = (ArrayList<ArrayList<String>>) current.get("checks");
-        for (int i = 0; i <= exitArray.size(); i++) {
-          if (Integer.parseInt(exitArray.get(i)) == nextId) {
-            play(nextId);
+        if (exitArray.size() != 0) {
+          for (int i = 0; i <= exitArray.size() -1; i++) {
+            if (Integer.parseInt(exitArray.get(i)) == nextId) {
+              play(nextId);
+            }
           }
         }
         for(ArrayList list : checkArray){
@@ -74,10 +77,17 @@ public class Game {
                 statC = player.getCha();
               }
               else if(list.get(2).equals("str")){
-                statC = player.getCha();
+                statC = player.getAtk();
+              }
+              else if (list.get(2).equals("def")){
+                statC = player.getDef();
               }
               else if (list.get(2).equals("win")){
-
+                if (player.argue(player.getAtk(), player.getDef(), Integer.parseInt((String)list.get(3)), Integer.parseInt((String)list.get(4)), Integer.parseInt((String)list.get(5)))){
+                  play(Integer.parseInt((String)list.get(1)));
+                } else {
+                  play(Integer.parseInt((String)list.get(0)));
+                }
               }
               int targetC =Integer.parseInt((String) list.get(3));
               if (check(statC,targetC) == true){
@@ -115,5 +125,15 @@ public class Game {
 
 
     //}
+  }
+  public static String makeStats(){
+    player.setAtk((int) Math.ceil(Math.random() * 10));
+    player.setCha((int) Math.ceil(Math.random() * 10));
+    player.setDef((int) Math.ceil(Math.random() * 10));
+    player.setMaxHp((int) Math.ceil(Math.random() * 10));
+    //player.set
+    player.setHp(player.maxHp);
+    String stats = "your Attack stat is: " + player.atk + ", your Charisma stat is: " + player.cha + ", your defense stat is: " + player.def + ", your hp stat is: " + player.maxHp;
+    return stats;
   }
 }

@@ -2,8 +2,8 @@
   "roomArray": {
     "room0": {
       "id": "0",
-      "exits": ["1"],
-      "text": "Shalom. Tell me your name!",
+      "exits": ["3"],
+      "text": "Shalom. Press 3 to continue.",
       "checks":[[]]
     },
     "room1" : {
@@ -18,64 +18,64 @@
       "text": "Are you sure you want to choose that class?",
       "checks":[[]]
     },
-    "room3" : {
       "id":"3",
+      "room3" : {
       "exits" : [ "6", "12", "13", "7"],
-      "text" : "you wake up in a jail cell. You do not remember what happened.",
+      "text" : "you wake up in a jail cell. You do not remember what happened. Press 6 to search the room, press 12 to try to pick the lock, press 5 to try to break the bars, or press 16 to try to convince the guard to let you go.",
       "checks":[["5","4","str","5"],["16","11","cha", "5"]]
     },
     "room4" : {
       "id" : "4",
       "exits" : ["8"],
-      "text" : "with your mighty strength, you break the bars and exit the cell",
+      "text" : "With your mighty strength, you break the bars and exit the cell. Press 8 to continue.",
       "checks":[[]]
     },
     "room5" : {
       "id" : "5",
       "exits" : ["3"],
-      "text" : "you failed, as you have weak, noodley arms.",
+      "text" : "You failed, as you have weak, noodley arms. Press 3 to restart.",
       "checks":[[]]
   },
     "room6" : {
       "id" : "6",
-      "exits" : ["3"],
-      "text" : "you find a key",
+      "exits" : ["18"],
+      "text" : "You find a key! Press 18 to continue.",
       "checks":[[]]
     },
     "room7" : {
       "id" : "7",
       "exits" : ["8"],
-      "text" : "you unlock the door.",
+      "text" : "you unlock the door! Press 8 to continue.",
       "checks":[[]]
     },
     "room8" : {
       "id" : "8",
       "exits" : ["9", "10"],
-      "text" : "you are confronted by a guard",
+      "text" : "You are confronted by a guard. Press 9 to try to convince him to let you leave, or press 10 to fight him.",
       "checks":[[]]
     },
     "room9" : {
       "id" : "9",
       "exits" : [],
-      "text" : "you try to convince him to let you go",
+      "text" : "You try to convince the guard to let you go. Press 14 to continue.",
       "checks":[["15","14","cha","5"]]
     },
     "room10" : {
       "id" : "10",
       "exits" : [],
-      "text" : "you fight the guard",
-      "checks":[["17","14","win","1"]]
+      "text" : "You fight the guard. Press 17 to continue.",
+      "checks":[["17","14","win","5", "7", "3"]]
     },
     "room11" : {
       "id" : "11",
       "exits" : ["14", "3"],
-      "text" : "you convince the guard to let you go",
+      "text" : "You convince the guard to let you go. Press 14 to continue.",
       "checks":[[]]
     },
     "room12" : {
       "id" : "12",
-      "exits" : ["8"],
-      "text" : "you attempt to pick the lock",
+      "exits" : ["19"],
+      "text" : "You attempt to pick the lock. Press 19 to continue.",
       "checks":[[]]
     },
     "room13" : {
@@ -86,27 +86,39 @@
     },
     "room14" : {
       "id" : "14",
-      "exits" : ["0"],
-      "text" : "you have escaped!",
+      "exits" : ["3"],
+      "text" : "Congratulations! You have escaped! Press 3 to play again, or press 20 to close the game.",
       "checks":[[]]
     },
     "room15" : {
       "id" : "15",
       "exits" : ["10"],
-      "text" : "you attempt to convince the gaurd to let you go, but you fail, you begin to fight.",
+      "text" : "You attempt to convince the guard to let you go, but you fail, and the guard begins to attack you. Press 10 to continue.",
       "checks":[[]]
     },
     "room16":{
       "id": "16",
       "exits": ["3"],
-      "text": "the guard tells you that you smell weird and are bad, so you can't leave",
+      "text": "The guard tells you that you smell weird and are bad, so you can't leave. Press 10 to try to fight the guard, or press 3 to restart.",
       "checks":[[]]
     },
     "room17":{
     "id": "17",
     "exits": ["3"],
-    "text": "you died",
+    "text": "You died. Press 3 to restart or press 20 to exit.",
       "checks":[[]]
-  }
+  },
+    "room 18":{
+      "id": "18",
+      "exits": "7",
+      "text": "You have a key. Press 7 to unlock the door.",
+      "checks": [[]]
+    },
+    "room19" : {
+      "id" : "19",
+      "exits" : ["3"],
+      "text" : "You do not have a lockpick. Nice try, idiot. Press 3 to restart.",
+      "checks":[[]]
+    }
 
 }}

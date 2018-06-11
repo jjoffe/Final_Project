@@ -58,24 +58,25 @@ public class Player {
     this.type = type;
   }
 
-  public boolean argue (int fAtk, int fDef, int uHp, int uAtk, int uDef){ // returns true if enemy dead, returns false if not
+  public boolean argue (int fAtk, int fDef, int uHp, int uAtk, int uDef){
     boolean current = true;
-    if (uAtk > fDef) {
-      hp -= uAtk - fDef;
-      if (hp <= 0) {
-        current = false;
-      } else {
-        current = true;
+    while (true) {
+      if (uAtk > fDef) {
+        hp -= uAtk - fDef;
+        if (hp <= 0) {
+          return false;
+        } else {
+          current = true;
+        }
+      }
+      if (fAtk > uDef) {
+        uHp -= fAtk - uDef;
+        if (uHp <= 0) {
+          return true;
+        } else {
+          current = false;
+        }
       }
     }
-    if (fAtk > uDef){
-      uHp -= fAtk - uDef;
-      if (uHp <= 0){
-        current = true;
-      } else{
-        current = false;
-      }
-    }
-    return current;
   }
 }
