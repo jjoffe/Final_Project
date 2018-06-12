@@ -46,7 +46,7 @@ public class Game {
         JSONObject obj = (JSONObject) parser.parse(new FileReader("Adventure.JSON"));
         JSONObject rooms = (JSONObject) obj.get("roomArray");
         //JSONObject room = (JSONObject) obj.get("room0");
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 17; i++) {
           String thing = "room" + String.valueOf(i);
           //System.out.println(thing);
           map.put(i, (JSONObject) rooms.get(thing));
@@ -98,7 +98,7 @@ public class Game {
               }
             }
             else{
-              //end program
+              System.exit(0);
             }
           }
         }

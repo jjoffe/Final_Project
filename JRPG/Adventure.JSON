@@ -96,23 +96,23 @@
       "text" : "You attempt to convince the guard to let you go, but you fail, and the guard begins to attack you. Press 10 to continue.",
       "checks":[[]]
     },
-    "room16":{
-      "id": "16",
-      "exits": ["3"],
-      "text": "The guard tells you that you smell weird and are bad, so you can't leave. Press 10 to try to fight the guard, or press 3 to restart.",
-      "checks":[[]]
+    "room16" : {
+      "id" : "16",
+      "exits" : ["3"],
+      "text" : "The guard tells you that you smell weird and are bad, so you can't leave. Press 10 to try to fight the guard, or press 3 to restart.",
+      "checks" :[[]]
     },
-    "room17":{
-    "id": "17",
-    "exits": ["3"],
-    "text": "You died. Press 3 to restart or press 20 to exit.",
-      "checks":[[]]
+    "room17": {
+    "id" : "17",
+    "exits" : ["3"],
+    "text" : "You died. Press 3 to restart or press 20 to exit.",
+      "checks" :[[]]
   },
-    "room 18":{
-      "id": "18",
-      "exits": "7",
-      "text": "You have a key. Press 7 to unlock the door.",
-      "checks": [[]]
+    "room18": {
+      "id" : "18",
+      "exits" : ["7"],
+      "text" : "You have a key. Press 7 to unlock the door.",
+      "checks" : [[]]
     },
     "room19" : {
       "id" : "19",
