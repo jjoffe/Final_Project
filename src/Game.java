@@ -46,7 +46,7 @@ public class Game {
         JSONObject obj = (JSONObject) parser.parse(new FileReader("Adventure.JSON"));
         JSONObject rooms = (JSONObject) obj.get("roomArray");
         //JSONObject room = (JSONObject) obj.get("room0");
-        for (int i = 0; i < 17; i++) {
+        for (int i = 0; i < 21; i++) {
           String thing = "room" + String.valueOf(i);
           //System.out.println(thing);
           map.put(i, (JSONObject) rooms.get(thing));
@@ -71,7 +71,7 @@ public class Game {
         }
         for(ArrayList list : checkArray){
           for(int i = 0; i < 2; i++){
-            if(id != 20) {
+            if(nextId != 20) {
               if (Integer.parseInt((String) list.get(i)) == nextId) {
                 int statC = 0;
                 if (list.get(2).equals("cha")) {

@@ -107,7 +107,7 @@
     "exits" : ["3"],
     "text" : "You died. Press 3 to restart or press 20 to exit.",
       "checks" :[[]]
-  },
+    },
     "room18": {
       "id" : "18",
       "exits" : ["7"],
