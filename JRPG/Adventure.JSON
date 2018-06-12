@@ -20,7 +20,7 @@
     },
       "id":"3",
       "room3" : {
-      "exits" : [ "6", "12", "13", "7"],
+      "exits" : [ "6", "12", "13"],
       "text" : "you wake up in a jail cell. You do not remember what happened. Press 6 to search the room, press 12 to try to pick the lock, press 5 to try to break the bars, or press 16 to try to convince the guard to let you go.",
       "checks":[["5","4","str","5"],["16","11","cha", "5"]]
     },

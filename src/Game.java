@@ -71,33 +71,34 @@ public class Game {
         }
         for(ArrayList list : checkArray){
           for(int i = 0; i < 2; i++){
-            if (Integer.parseInt((String)list.get(i)) == nextId){
-              int statC = 0;
-              if(list.get(2).equals("cha")){
-                statC = player.getCha();
-              }
-              else if(list.get(2).equals("str")){
-                statC = player.getAtk();
-              }
-              else if (list.get(2).equals("def")){
-                statC = player.getDef();
-              }
-              else if (list.get(2).equals("win")){
-                if (player.argue(player.getAtk(), player.getDef(), Integer.parseInt((String)list.get(3)), Integer.parseInt((String)list.get(4)), Integer.parseInt((String)list.get(5)))){
-                  play(Integer.parseInt((String)list.get(1)));
+            if(id != 20) {
+              if (Integer.parseInt((String) list.get(i)) == nextId) {
+                int statC = 0;
+                if (list.get(2).equals("cha")) {
+                  statC = player.getCha();
+                } else if (list.get(2).equals("str")) {
+                  statC = player.getAtk();
+                } else if (list.get(2).equals("def")) {
+                  statC = player.getDef();
+                } else if (list.get(2).equals("win")) {
+                  if (player.argue(player.getAtk(), player.getDef(), Integer.parseInt((String) list.get(3)), Integer.parseInt((String) list.get(4)), Integer.parseInt((String) list.get(5)))) {
+                    play(Integer.parseInt((String) list.get(1)));
+                  } else {
+                    play(Integer.parseInt((String) list.get(0)));
+                  }
+                }
+                int targetC = Integer.parseInt((String) list.get(3));
+                if (check(statC, targetC) == true) {
+                  int succ = Integer.parseInt((String) (list.get(1)));
+                  play(succ);
                 } else {
-                  play(Integer.parseInt((String)list.get(0)));
+                  int fail = Integer.parseInt((String) (list.get(0)));
+                  play(fail);
                 }
               }
-              int targetC =Integer.parseInt((String) list.get(3));
-              if (check(statC,targetC) == true){
-                int succ = Integer.parseInt((String)(list.get(1)));
-                play(succ);
-              }
-              else{
-                int fail = Integer.parseInt((String)(list.get(0)));
-                play(fail);
-              }
+            }
+            else{
+              //end program
             }
           }
         }
